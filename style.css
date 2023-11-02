@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.white{
+    height: 100vh;
+    width: vw;
+}
+.black{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    margin: 15% auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.scrn{
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border-radius: 30px
+   
+
+}
+.scrn input{
+    width:100% ;
+    border: none;
+    outline: none;
+    text-align: right;
+    background-color: rgba(228, 236, 243, 0.082);
+
+    color: white;
+
+}
+.scrn .inp{
+    height: 60%; 
+    font-size: 35px;   
+
+}
+.content{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    display: flex;
+
+
+}
+.leftflex{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 10%;
+    height: 95%;
+    background-color: rgb(26, 24, 24);
+    
+}
+
+
+.rightgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 20px;
+    width: 90%;
+    border: none;
+
+}
+
+.rightgrid button{
+    height: 40px;
+    width: 40px;
+    margin-right: 3px;
+    font-size: 18px;
+    background-color: gray;
+    color: white;
+    border-radius: 35px;
+    border: none;
+
+}
+.leftflex button{
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+}
+.scrn .otp{
+    height: 40%;
+}
+.rightgrid .equal{
+    background-color: purple;
+    
+}
+.rightgrid .alph{
+    background-color: rgb(233, 9, 9);
+}
+.rightgrid .seven{
+    background-color: rgb(61, 46, 46);
+}
+.rightgrid .eight{
+    background-color: rgb(63, 53, 53);
+}
+.rightgrid .nine{
+    background-color: rgb(59, 49, 49);
+}
+.rightgrid .four{
+    background-color: rgb(58, 48, 48);
+}
+.rightgrid .five{
+    background-color: rgb(58, 46, 46);
+}
+.rightgrid .six{
+    background-color: rgb(56, 44, 44);
+}
+.rightgrid .one{
+    background-color: rgb(59, 46, 46);
+}
+.rightgrid .two{
+    background-color: rgb(59, 52, 52);
+}
+.rightgrid .three{
+    background-color: rgb(56, 47, 47);
+}
+.rightgrid .zero{
+    background-color: rgb(58, 46, 46);
+}
+.rightgrid .dot{
+    background-color: rgb(58, 48, 48);
+}
+.rightgrid .harsh{
+    background-color: rgb(56, 44, 44);
+}
+.rightgrid .slash{
+    background-color: rgb(56, 48, 48);
+}
